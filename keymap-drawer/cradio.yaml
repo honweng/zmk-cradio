@@ -1,40 +1,5 @@
 layout: {zmk_keyboard: cradio}
 layers:
-  COLEMAK:
-  - Q
-  - W
-  - F
-  - P
-  - B
-  - J
-  - L
-  - U
-  - Y
-  - {t: '''', s: '"'}
-  - {t: A, h: '$$mdi:apple-keyboard-command$$'}
-  - {t: R, h: '$$mdi:apple-keyboard-option$$'}
-  - {t: S, h: '$$mdi:apple-keyboard-shift$$'}
-  - {t: T, h: '$$mdi:apple-keyboard-control$$'}
-  - G
-  - M
-  - {t: N, h: '$$mdi:apple-keyboard-control$$'}
-  - {t: E, h: '$$mdi:apple-keyboard-shift$$'}
-  - {t: I, h: '$$mdi:apple-keyboard-option$$'}
-  - {t: O, h: '$$mdi:apple-keyboard-command$$'}
-  - {t: Z, h: BUTTON}
-  - X
-  - C
-  - D
-  - V
-  - K
-  - H
-  - {t: ',', s: <}
-  - .
-  - {t: /, h: BUTTON, s: '?'}
-  - {t: '$$mdi:keyboard-tab$$', h: NAVI}
-  - {t: '$$mdi:keyboard-space$$', h: MOUSE}
-  - {t: '$$mdi:keyboard-return$$', h: SYMBOL}
-  - {t: '$$mdi:backspace$$', h: NUMBER}
   QWERTY:
   - Q
   - W
@@ -63,6 +28,41 @@ layers:
   - B
   - N
   - M
+  - {t: ',', s: <}
+  - .
+  - {t: /, h: BUTTON, s: '?'}
+  - {t: '$$mdi:keyboard-tab$$', h: NAVI}
+  - {t: '$$mdi:keyboard-space$$', h: MOUSE}
+  - {t: '$$mdi:keyboard-return$$', h: SYMBOL}
+  - {t: '$$mdi:backspace$$', h: NUMBER}
+  COLEMAK:
+  - Q
+  - W
+  - F
+  - P
+  - B
+  - J
+  - L
+  - U
+  - Y
+  - {t: '''', s: '"'}
+  - {t: A, h: '$$mdi:apple-keyboard-command$$'}
+  - {t: R, h: '$$mdi:apple-keyboard-option$$'}
+  - {t: S, h: '$$mdi:apple-keyboard-shift$$'}
+  - {t: T, h: '$$mdi:apple-keyboard-control$$'}
+  - G
+  - M
+  - {t: N, h: '$$mdi:apple-keyboard-control$$'}
+  - {t: E, h: '$$mdi:apple-keyboard-shift$$'}
+  - {t: I, h: '$$mdi:apple-keyboard-option$$'}
+  - {t: O, h: '$$mdi:apple-keyboard-command$$'}
+  - {t: Z, h: BUTTON}
+  - X
+  - C
+  - D
+  - V
+  - K
+  - H
   - {t: ',', s: <}
   - .
   - {t: /, h: BUTTON, s: '?'}
@@ -357,10 +357,10 @@ combos:
   k: $$mdi:printer-outline$$
 - p: [30, 31]
   k: {t: '$$mdi:keyboard-esc$$', h: MEDIA}
-  l: [COLEMAK]
+  l: [QWERTY]
 - p: [30, 31]
   k: {t: '$$mdi:keyboard-esc$$', h: MEDIA}
-  l: [QWERTY]
+  l: [COLEMAK]
 - p: [30, 31]
   k: {t: '$$mdi:keyboard-esc$$', h: MEDIA}
   l: [TAP]
@@ -378,10 +378,10 @@ combos:
   l: [FUNC]
 - p: [32, 33]
   k: {t: '$$mdi:backspace-reverse-outline$$', h: FUNC}
-  l: [COLEMAK]
+  l: [QWERTY]
 - p: [32, 33]
   k: {t: '$$mdi:backspace-reverse-outline$$', h: FUNC}
-  l: [QWERTY]
+  l: [COLEMAK]
 - p: [32, 33]
   k: {t: '$$mdi:backspace-reverse-outline$$', h: FUNC}
   l: [TAP]
